@@ -95,8 +95,8 @@ uploaded_files = st.file_uploader("Carregue aqui seu(s) arquivo(s) com dados de 
                                  accept_multiple_files=True)
 
 st.subheader('1.2 Definir padrão de formatação do arquivo')
-st.write('Este programa foi desenvolvido, inicialmente, para trabalhar com arquivos CSV no padrão do BDMEP.')
-st.write('Atualmente os padrões de formatação aceitos são: BDMEP')
+st.write('Este programa foi desenvolvido para trabalhar com arquivos CSV no padrão do FUNCEME.')
+st.write('Atualmente os padrões de formatação aceitos são: CSV FUNCEME')
 st.write('Caso deseje utilizar outro padrão de arquivo edite o método `read_data` do arquivo `m3ep.py`')
 
 st.subheader('2º Definição do quantil limiar')
